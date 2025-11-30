@@ -5,3 +5,6 @@ edition = "2024"
 
 [dependencies]
 criterion = { version = "0.8", features = ["html_reports"]}
+
+[features]
+bench = []
